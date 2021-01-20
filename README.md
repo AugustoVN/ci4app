@@ -14,7 +14,19 @@ More information about the plans for version 4 can be found in [the announcement
 The user guide corresponding to this version of the framework can be found
 [here](https://codeigniter4.github.io/userguide/). 
 
+##Banco de dados
+Nome banco : projetocliente
 
+Tabela
+CREATE TABLE tb_clientes(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(30) NOT NULL,
+endereço VARCHAR(30) NOT NULL,
+telefone VARCHAR(13),
+email VARCHAR(50));
+
+User Banco : root
+Password : ""
 ## Important Change with index.php
 
 `index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
@@ -43,6 +55,7 @@ We welcome contributions from the community.
 Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
 
 ## Server Requirements
+
 
 PHP version 7.2 or higher is required, with the following extensions installed: 
 
