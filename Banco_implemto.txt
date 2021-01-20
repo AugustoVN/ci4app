@@ -1,0 +1,5 @@
+## Banco de dados Nome banco: projetocliente
+
+Tabela CREATE TABLE tb_clientes (id INT AUTO_INCREMENT PRIMARY KEY, nome VARCHAR (30) NOT NULL, endereço VARCHAR (30) NOT NULL, telefone VARCHAR (13), email VARCHAR (50));
+User : root
+Password:"";
